@@ -10,49 +10,52 @@ const SocailLinks = () => {
     <Box>
       <Box
         sx={{
-          bgcolor: "white",
+          bgcolor: "rgba(20,18,54,1)",
+          color:"white",
           height: "50px",
           width: "50px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           borderRadius: "3px 3px 0px 0px",
-          borderBottom: "1px solid black",
+          borderBottom: "1px solid white",
         }}
       >
         <FacebookIcon />
       </Box>
       <Box
         sx={{
-          bgcolor: "white",
+          bgcolor: "rgba(20,18,54,1)",
+          color:"white",
           height: "50px",
           width: "50px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
         
-          borderBottom: "1px solid black",
+          borderBottom: "1px solid white",
         }}
       >
         <LinkedInIcon />
       </Box>
       <Box
         sx={{
-          bgcolor: "white",
+          bgcolor: "rgba(20,18,54,1)",
+          color:"white",
           height: "50px",
           width: "50px",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-        
-          borderBottom: "1px solid black",
+          borderBottom: "1px solid white",
         }}
       >
         <InstagramIcon />
       </Box>
       <Box
         sx={{
-          bgcolor: "white",
+          bgcolor: "rgba(20,18,54,1)",
+          color:"white",
           height: "50px",
           width: "50px",
           display: "flex",

@@ -12,7 +12,8 @@ const Banner = () => {
             <Typography
               sx={{ color: "white", fontSize: "60px", fontWeight: 600 }}
             >
-              World Class <br /> Business Softwares
+              World <br />
+              Class It Solutions
             </Typography>
             <Typography
               sx={{
@@ -26,22 +27,51 @@ const Banner = () => {
               boring stuff and grow effortlessly.
             </Typography>
           </Box>
-          <Box sx={{py:"5px"}}>
+          <Box
+            sx={{
+              py: "20px",
+              display: "flex",
+              alignItems: "center",
+              gap: "10px",
+            }}
+          >
             <Button
               sx={{
-                bgcolor: "rgba(0,212,255,1)",
-                color: "White",
+                bgcolor: "white",
+                color: "rgba(20,18,54,1)",
+                cursor: "pointer",
                 ":hover": {
-                  bgcolor: "rgba(0,212,255,1)",
-                  color: "black",
+                  bgcolor: "white",
+                  color: "rgba(20,18,54,1)",
                 },
                 textTransform: "capitalize",
                 borderRadius: "40px",
-              display:"flex",
-              alignItems:"center"
+                display: "flex",
+                alignItems: "center",
+                fontSize: "12px",
+                fontWeight: 600,
+                height: "60px",
+                width: "180px",
               }}
             >
-              Explore More <ArrowRightIcon />
+              Explore
+              <ArrowRightIcon />
+            </Button>
+            <Button
+              sx={{
+                border: "1px solid rgba(0,212,255,1)",
+                color: "white",
+                cursor: "pointer",
+                textTransform: "capitalize",
+                borderRadius: "40px",
+
+                fontSize: "12px",
+                fontWeight: 600,
+                height: "60px",
+                width: "180px",
+              }}
+            >
+              Let"s Talk <ArrowRightIcon />
             </Button>
           </Box>
         </Box>
@@ -50,6 +80,7 @@ const Banner = () => {
         sx={{
           position: "absolute",
           left: "0%",
+          top: "0%",
           bottom: "0%",
           right: "0%",
           display: "flex",
